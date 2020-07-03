@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>   Vincenzo Bellini a Giovanni Galeota, in Parigi, Febbraio 1834</title>
+                <!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+                <author ref="#VB">Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>transcription by:</resp>
+                    <name xml:id="GS">Graziella Seminara</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital edition project coordineted by:</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+                    <name xml:id="EC">Erica Capizzi</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Edition:
+                    <date when="2020-06">July 2020</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="VS">Valerio Salvetti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher />
+                <!-- editore sarà la Fondazione Bellini -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl source="#Seminara2017" resp="#GS" ana="129">
+                    <citedRange unit="page" from="331" to="332">pag 331-332</citedRange>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Catania</settlement>
+                        <repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+                        <idno type="inventory">LL1_14</idno>
+                        <altIdentifier><idno type="collocation">In esposizione Casa Natale, sala B, vetrina 4, ripiano 1, II</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+                            <title type="uniform" xml:lang="it">
+                                <persName ref="#VB" role="composer">Vincenzo Bellini</persName> a         <persName ref="#GGa">Giovanni Galeota</persName>, in                    <placeName ref="#Paris">Parigi</placeName>,            <date when="1834-02" cert="high" resp="#GS">Febbraio 1834</date>
+                            </title>
+                            <textLang mainLang="it">italiano di inizio Ottocento</textLang>
+                            <note>La data di redazione della lettera è stata attribuita da <persName ref="#GS">Seminara</persName> e non è presente nel documento originale</note>
+                        </msItem>                        
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile</material>
+                                    <p>Lettera in discrete condizioni fisiche, composta da un solo folio, ripiegato in più parti, carta sottile, la lettera ha gli angoli leggermente piegati</p>               
+                                </support>
+                                <extent>
+                                    <measure type="folio">1</measure>
+                                    <dimensions unit="mm">
+                                        <height>256</height>
+                                        <width>195</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    Il foglio presenta segni di piegatura simmetrica in 4 sezioni, il fronte in alto a dx presenta un utleriore piegatura, in maniera speculare in basso a sx
+                                </foliation>
+                                <condition>
+                                    <p>Lettera in ottime condizioni fisiche</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="3">
+                            <handNote><p>Scrittura a mano libera poco leggibile. Il folio sul retro, nella parte in alto e in basso a sx, presenta due annotazioni, in alto a sx in matita blu, in basso a sx in inchiostro più scuro rispetto alla lettera. Sul fronte in basso a sx troviamo ancora una annotazione in matita blu. </p></handNote>
+                            <handNote xml:id="h1"><p>sia sul fronte che sul retro la lettera presenta annotazioni in matita blu, probabilmente dovuta ad un catalogatore. Sul retro l'annotazione in blu presenta il numero 18. </p></handNote>
+                            <handNote xml:id="h2"><p>L'annotazione in inchiostro nero sul retro in basso a sx non è leggibile e presenta anche un ghirigoro</p></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <note>
+                                All'interno del carteggio belliniano (LL), la segnatura LL1_14 identifica la quattordicesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface n="1" xml:id="LL1_14_folio_1fronte">
+            <graphic url='LL1_14_0001.jpg' width='2508.33334px' height='3078.33334px' />
+            <!--FRONTE-->
+            <zone ulx="71" uly="60" lrx="2505" lry="3070" xml:id="LL1_14_folio_1f"/>
+            <!--PRIMA PARTE DELLA LETTERA-->
+            <zone ulx="105" uly="711" lrx="2477" lry="3046" xml:id="LL1_14_pt1"/>
+            <!--SECONDA PARTE DELLA LETTERA-->
+            <zone ulx="44" uly="526" lrx="964" lry="3049" rotate="270" xml:id="LL1_14_pt2"/>
+            <!--TERZA PARTE DELLA LETTERA-->
+            <zone ulx="50" uly="39" lrx="2457" lry="599" xml:id="LL1_14_pt3"/>
+            <!--ZONA SECONDA MANO-->
+            <zone ulx="200" uly="2263" lrx="1060" lry="2729" xml:id="LL1_14_2handf"/>
+
+            <!--righe prima parte-->
+            <zone ulx="335" uly="737" lrx="2425" lry="797"   rendition="Line" xml:id="LL1_14_line_1f_01"/>
+            <zone ulx="157" uly="787" lrx="2391" lry="899"   rendition="Line" xml:id="LL1_14_line_1f_02"/>
+            <zone ulx="125" uly="901" lrx="2437" lry="1009"  rendition="Line" xml:id="LL1_14_line_1f_03"/>
+            <zone ulx="157" uly="993" lrx="2391" lry="1093"  rendition="Line" xml:id="LL1_14_line_1f_04"/>
+            <zone ulx="119" uly="1097" lrx="2463" lry="1227" rendition="Line" xml:id="LL1_14_line_1f_05"/>
+            <zone ulx="135" uly="1183" lrx="2443" lry="1305" rendition="Line" xml:id="LL1_14_line_1f_06"/>
+            <zone ulx="139" uly="1275" lrx="2453" lry="1397" rendition="Line" xml:id="LL1_14_line_1f_07"/>
+            <zone ulx="103" uly="1383" lrx="2463" lry="1521" rendition="Line" xml:id="LL1_14_line_1f_08"/>
+            <zone ulx="127" uly="1497" lrx="2475" lry="1607" rendition="Line" xml:id="LL1_14_line_1f_09"/>
+            <zone points = ' 103,1757 135,1637 903,1575 1219,1573 2473,1565 2477,1677 117,1755 ' rendition="Line" xml:id="LL1_14_line_1f_10"/> 
+            <zone ulx="115" uly="1661" lrx="2465" lry="1845" rendition="Line" xml:id="LL1_14_line_1f_11"/>
+            <zone ulx="93" uly="1777" lrx="2453" lry="1957"  rendition="Line" xml:id="LL1_14_line_1f_12"/>
+            <zone ulx="95" uly="1873" lrx="2457" lry="2079"  rendition="Line" xml:id="LL1_14_line_1f_13"/>
+            <zone points = ' 191,2051 1039,2001 1375,1993 1693,1973 1789,2027 2441,1995 2465,2051 2227,2055 2155,2079 1521,2099 1091,2127 653,2163 163,2147 ' rendition="Line" xml:id="LL1_14_line_1f_14" />
+            <zone ulx="163" uly="2027" lrx="2477" lry="2291" rendition="Line" xml:id="LL1_14_line_1f_15"/>
+            <zone ulx="179" uly="2121" lrx="2477" lry="2385" rendition="Line" xml:id="LL1_14_line_1f_16"/>
+            <zone points = ' 153,2415 545,2357 1537,2277 2437,2195 2449,2333 1789,2381 1625,2421 151,2491 ' rendition="Line" xml:id="LL1_14_line_1f_17" />
+            <zone ulx="103" uly="2369" lrx="2467" lry="2611" rendition="Line" xml:id="LL1_14_line_1f_18"/>
+            <zone ulx="97" uly="2485" lrx="2483" lry="2729"  rendition="Line" xml:id="LL1_14_line_1f_19"/>
+            <zone points = ' 127,2717 1501,2627 2415,2569 2425,2677 1717,2745 839,2813 701,2781 93,2827 ' rendition="Line" xml:id="LL1_14_line_1f_20" />
+            <zone ulx="115" uly="2711" lrx="2481" lry="2915" rendition="Line" xml:id="LL1_14_line_1f_21"/>
+            <zone ulx="127" uly="2795" lrx="2459" lry="2997" rendition="Line" xml:id="LL1_14_line_1f_22"/>
+            <zone ulx="145" uly="2885" lrx="2475" lry="3059" rendition="Line" xml:id="LL1_14_line_1f_23"/>
+
+            <!--righe seconda parte-->
+            <zone ulx="61" uly="549" lrx="125" lry="2999"    rendition="Line" rotate="270" xml:id="LL1_14_line_1f_24"/>
+            <zone ulx="115" uly="591" lrx="197" lry="2973"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_25"/>
+            <zone ulx="197" uly="631" lrx="301" lry="2997"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_26"/>
+            <zone ulx="311" uly="659" lrx="405" lry="2979"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_27"/>
+            <zone ulx="377" uly="651" lrx="529" lry="2999"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_28"/>
+            <zone ulx="513" uly="663" lrx="603" lry="2991"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_29"/>
+            <zone ulx="615" uly="603" lrx="753" lry="2985"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_30"/>
+            <zone ulx="723" uly="723" lrx="835" lry="2983"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_31"/>
+            <zone ulx="837" uly="567" lrx="943" lry="2975"   rendition="Line" rotate="270" xml:id="LL1_14_line_1f_32"/>
+            <zone ulx="945" uly="2349" lrx="1021" lry="2967" rendition="Line" rotate="270" xml:id="LL1_14_line_1f_33"/>
+
+            <!--righe terza parte-->
+            <zone ulx="127" uly="71" lrx="2387" lry="177"  rendition="Line" xml:id="LL1_14_line_1f_34"/>
+            <zone ulx="117" uly="159" lrx="2411" lry="309" rendition="Line" xml:id="LL1_14_line_1f_35"/>
+            <zone ulx="107" uly="221" lrx="2457" lry="389" rendition="Line" xml:id="LL1_14_line_1f_36"/>
+            <zone ulx="109" uly="365" lrx="2435" lry="459" rendition="Line" xml:id="LL1_14_line_1f_37"/>
+            <zone ulx="101" uly="447" lrx="1021" lry="579" rendition="Line" xml:id="LL1_14_line_1f_38"/>
+        </surface>
+        <surface n="2" xml:id="LL1_14_folio_1retro">
+            <graphic url='LL1_14_0002.jpg' width='2508.33334px' height='3115.33334px' />
+            <!--RETRO-->
+            <zone ulx="61" uly="50" lrx="2497" lry="3114" xml:id="LL1_14_folio_1r"/>
+            <!--ZONA SECONDA MANO-->
+            <zone ulx="346" uly="506" lrx="637" lry="799" xml:id="LL1_14_2handr"/>
+            <!--ZONA TERZA MANO-->
+            <zone ulx="207" uly="2293" lrx="1320" lry="2837" rotate="90" xml:id="LL1_14_3handr"/>
+            <!--ZONA APPUNTO DESTINATARIO-->
+            <zone ulx="1427" uly="1920" lrx="2197" lry="2973" rotate="90" xml:id="LL1_14_dest" />
+        </surface>
+    </facsimile>
+    <text type="letter" xml:id="LL1_14" subtype="manuscript" n="LL.14">
+        <body xml:lang="it">
+            <div type="letter" xml:id="letterBodyTot">
+                <div type="fronte" xml:id="frontPage">
+                    <div type="opener" xml:id="opener">
+                        <gap reason="omitted-in-original" extent="unknown"/>
+                    </div>
+                    <div type="letter-body" xml:id="letterBody">
+                        <pb n="1"  xml:id="LL1_14_fol_1fronte" facs="#LL1_14_folio_1f"/>
+                        <!--prima parte lettera-->
+                        <div facs="#LL1_14_pt1" xml:id="part_1f" >
+                            <ab type="parag" n="1" rend="overwritten" xml:id="part_1">
+                                <lb xml:id="LL1_14_lb_1f_01" n="01" facs="#LL1_14_line_1f_01"/>È vero: anche <persName ref="#FFlo" role="composer">Flormio</persName><ptr target="#LL1_14_note0" n="1"/> mi consiglia <del rend="strikethrough">a scrivere l'opera</del> a fare il possibile di 
+                                <lb xml:id="LL1_14_lb_1f_02" n="02" facs="#LL1_14_line_1f_02"/>dar l'<term subtype="music-term" ref="#opera">opera</term> <add place="above"><placeName ref="#San_Carlo">S.Carlo</placeName></add> pel <date when="1985-01-12">12: Gennajo</date>, essendo la <persName ref="#MM" role="mezzosoprano">Malibran</persName><ptr target="#LL1_14_note1" n="2"/> scritturata per quell'epoca. Io
+                                <lb xml:id="LL1_14_lb_1f_03" n="03" facs="#LL1_14_line_1f_03"/>sinceramente le dico, che mi pare assai difficile il finirla per tal'epoca; men 
+                                <lb xml:id="LL1_14_lb_1f_04" n="04" facs="#LL1_14_line_1f_04"/>difficile forse pei primi di <date when="1885-02">Febbrajo</date>; ma d'adesso non potrei alcuna cosa 
+                                <lb xml:id="LL1_14_lb_1f_05" n="05" facs="#LL1_14_line_1f_05"/>promettere; quindi se <app xml:id="alt_1"><lem>piace</lem><rdg cause="haplography"/></app> alla <orgName type="opera-org" ref="#Soc-teatri_NA">Nobile società</orgName>, proporrei quanto segue:
+                                <lb xml:id="LL1_14_lb_1f_06" n="06" facs="#LL1_14_line_1f_06"/><persName ref="#GGa">Ella</persName> abbia la bontà di inviarmi la <add place="above">nota</add> <supplied resp="#GS">della</supplied> <term subtype="music-term" ref="#compagnia">compagnia</term> <add place="superimposed"><unclear reason="parterased">che</unclear> vi </add><unclear reason="eccentric_ductus">sarà</unclear> nell'inverno
+                                <lb xml:id="LL1_14_lb_1f_07" n="07" facs="#LL1_14_line_1f_07"/>venturo, come quelli che probabilmente potranno <unclear reason="eccentric_ductus">avere</unclear> per <del rend="strikethrough">l'anno</del>
+                                <lb xml:id="LL1_14_lb_1f_08" n="08" facs="#LL1_14_line_1f_08"/>primavera del <date when="1835">1835</date>:-Io subito finita l'<term subtype="music-term" ref="#opera">opera</term> per <placeName ref="#Paris">Parigi</placeName> imprenderò a <w>scri
+                                <lb xml:id="LL1_14_lb_1f_09" n="09" facs="#LL1_14_line_1f_09" break="no" rend="double stroke"/>vere</w> quella per <placeName ref="#NA">Napoli</placeName>, e farò tutti gli sforzi possibili <del rend="">per finirla</del> per 
+                                <lb xml:id="LL1_14_lb_1f_10" n="10" facs="#LL1_14_line_1f_10"/>portarla a compimento <subst> <del rend="strikethrough">per metterla</del> <add place="above">e <unclear reason="eccentric_ductus">darla</unclear>in</add></subst> scena, al più <unclear reason="eccentric_ductus">tardi</unclear>, il <date when="1895-02-01">1° Febbraio</date>
+                                <lb xml:id="LL1_14_lb_1f_11" n="11" facs="#LL1_14_line_1f_11"/>del <date when="1835">1835</date>: ma se ciò non potrà <unclear reason="eccentric_ductus">riuscire</unclear> prometto, darne avviso nel
+                                <lb xml:id="LL1_14_lb_1f_12" n="12" facs="#LL1_14_line_1f_12"/>la fine d'<date when="--08">Agosto</date> vegnente perché la <orgName type="opera-org" ref="#Soc-teatri_NA">Nobile società</orgName> prenda le sue 
+                                <lb xml:id="LL1_14_lb_1f_13" n="13" facs="#LL1_14_line_1f_13"/>misure, ed allora l'<term subtype="music-term" ref="#opera">opera</term> la darei nella primavera dell'istess'anno.
+                                <lb xml:id="LL1_14_lb_1f_14" n="14" facs="#LL1_14_line_1f_14"/>Se questo piano conviene, ella <add place="above">abbiala bontà</add> di rendermi <add place="above">subito</add> avvisato,per fissar tutto con
+                                <lb xml:id="LL1_14_lb_1f_15" n="15" facs="#LL1_14_line_1f_15"/>un contratto legale;<unclear reason="eccentric_ductus">mentre</unclear> <gap reason="deleted" extent="2"/> <del rend="strikethrough">offerte </del><add place="above">perora ho</add> paralizzato altre <gap reason="deleted" extent="1"/><add place="above">trattative</add>
+                                <lb xml:id="LL1_14_lb_1f_16" n="16" facs="#LL1_14_line_1f_16"/>che non <unclear reason="eccentric_ductus">potrò</unclear> riprendere <del rend="strikethrough">che ho</del> <add place="above">se</add> non prima avrò fermato il contratto 
+                                <lb xml:id="LL1_14_lb_1f_17" n="17" facs="#LL1_14_line_1f_17"/>con <placeName ref="#NA">Napoli</placeName>-<del rend="strikethrough"> Sa Ella qual'è la gran difficoltà</del> Di già
+                                <lb xml:id="LL1_14_lb_1f_18" n="18" facs="#LL1_14_line_1f_18"/>col <persName ref="#CP" role="librettist">Conte Pepoli</persName> che mi scrive il <term subtype="music-term" ref="#libretto">libro</term> per <placeName ref="#Paris">Parigi</placeName><subst> <del rend="strikethrough">sono</del> <add place="above">siamo</add></subst> in cerca anche
+                                <lb xml:id="LL1_14_lb_1f_19" n="19" facs="#LL1_14_line_1f_19"/>di un argomento p<supplied resp="#GS">er</supplied> <placeName ref="#NA">Napoli</placeName>; ed ancora non se ne presenta alcuno che
+                                <lb xml:id="LL1_14_lb_1f_20" n="20" facs="#LL1_14_line_1f_20"/>ci convenga, e per <placeName ref="#Paris">Parigi</placeName> e per costì. È la cosa la più difficile di
+                                <lb xml:id="LL1_14_lb_1f_21" n="21" facs="#LL1_14_line_1f_21"/>trovare soggetti che presentano novità ed interesse, ed è la sola ragione
+                                <lb xml:id="LL1_14_lb_1f_22" n="22" facs="#LL1_14_line_1f_22"/>che fa perdere tanto tempo,<unclear reason="eccentric_ductus">ma come sono convinto</unclear> <del rend="strikethrough">che senza</del><gap reason="deleted" extent="1"/><add place="above">che il </add><term subtype="music-term" ref="#libretto">libretto</term>
+                                <lb xml:id="LL1_14_lb_1f_23" n="23" facs="#LL1_14_line_1f_23"/>è il <unclear reason="eccentric_ductus"><orig>pedamento</orig></unclear><ptr target="#LL1_14_note3" n="3"/> d'un' <term subtype="music-term" ref="#opera">opera</term>, così ho trovato bene impiegato il tempo per la ricerca.
+                            </ab>
+                        </div>
+                        <!--seconda parte lettera-->
+                        <div facs="#LL1_14_pt2" xml:id="part_2f" >
+                            <ab type="parag" n="2" rend="underwritten" xml:id="part_2">
+                            <add xml:id="hand2add" hand="#h1" facs="#LL1_14_2handf"><gap reason="illegibile" extent="1"/><num>106</num></add>
+                                <lb xml:id="LL1_14_lb_1f_24" n="24" facs="#LL1_14_line_1f_24"/><ptr target="#LL1_14_note4" n="4"/><persName ref="#GGa">Ella</persName> sicompiaccia dunque di rispondermi e non faccia meraviglia se dopo le paghe
+                                <lb xml:id="LL1_14_lb_1f_25" n="25" facs="#LL1_14_line_1f_25"/>che ho ricevuto a <placeName ref="#MI">Milano</placeName> per la <rs type="work" ref="#Sonnambula">Sonnambula</rs> e la <rs type="work" ref="#Norma"></rs><unclear reason="ink blot"> domando per</unclear>
+                                <lb xml:id="LL1_14_lb_1f_26" n="26" facs="#LL1_14_line_1f_26"/><term subtype="music-term" ref="#opera">opera</term> che mi ordina quattromila ducati.<unclear reason="eccentric_ductus">L'impresa potrà forse</unclear>
+                                <lb xml:id="LL1_14_lb_1f_27" n="27" facs="#LL1_14_line_1f_27"/>introitarne una <sic>mettà</sic> con la vendita della proprietà d'edizione e di 
+                                <lb xml:id="LL1_14_lb_1f_28" n="28" facs="#LL1_14_line_1f_28"/><term subtype="music-term" ref="#spartito">spartito</term>.L'<persName ref="#GRi" role="editor">editore Ricordi</persName> di <placeName ref="#MI">Milano</placeName> paga di già per <add place="above">idirittisolidi</add> l'<term subtype="music-term" ref="#opera">opera</term>
+                                <lb xml:id="LL1_14_lb_1f_29" n="29" facs="#LL1_14_line_1f_29"/>che devo scrivere per <placeName ref="#Paris">Parigi</placeName> due mila franchi, e lo troverò pronto
+                                <lb xml:id="LL1_14_lb_1f_30" n="30" facs="#LL1_14_line_1f_30"/>a <unclear reason="eccentric_ductus">comprare</unclear> quella di <placeName ref="#NA">Napoli</placeName> quanto ella lo vuole. -<persName ref="#ETT" role="editor">Trupenas</persName><ptr target="#LL1_14_note5" n="5"/> edi 
+                                <lb xml:id="LL1_14_lb_1f_31" n="31" facs="#LL1_14_line_1f_31" break="no" rend="double stroke"/>tore di <placeName ref="#Paris">Parigi</placeName> (è vero che è un'<term subtype="music-term" ref="#opera">opera</term> per <placeName ref="#Paris">Parigi</placeName> ove egli trovandosi 
+                                <lb xml:id="LL1_14_lb_1f_32" n="32" facs="#LL1_14_line_1f_32"/>già) mi paga ottomila franchi per gli diritti di proprietà nell'edizione 
+                                <lb xml:id="LL1_14_lb_1f_33" n="33" facs="#LL1_14_line_1f_33"/>e su lo <term subtype="music-term" ref="#spartito">spartito</term>. 
+                            </ab>
+                        </div>
+                        <!--terza parte lettera-->
+                        <div facs="#LL1_14_pt3" xml:id="part_3f">
+                            <ab type="parag" n="3" xml:id="part_3">
+                                <lb xml:id="LL1_14_lb_1f_34" n="34" facs="#LL1_14_line_1f_34"/><ptr target="#LL1_14_note6" n="6"/>Dopo tutto ciò: ella, <abbr type="title">Sig</abbr>: <persName ref="#GGa">Cavaliere</persName>, dovrebbe indicarmi la <term subtype="music-term" ref="#compagnia">compagnia</term> che sarà
+                                <lb xml:id="LL1_14_lb_1f_35" n="35" facs="#LL1_14_line_1f_35"/>scritturata pel Carnevale <date when="1835">1835</date>:, e dirmi se la <orgName>Nobile Direzione</orgName><ptr target="#LL1_14_note7" n="7"/> si contentasse 
+                                <lb xml:id="LL1_14_lb_1f_36" n="36" facs="#LL1_14_line_1f_36"/>che io<del rend="">dessi</del> <subst><del rend="strikethrough">mettessi</del> <add place="above">dessi</add></subst> l'<term subtype="music-term" ref="#opera">opera</term> in scena nei primi di <date when="--02">Febrajo</date>, e se fosse <w>possibi 
+                                <lb xml:id="LL1_14_lb_1f_37" n="37" facs="#LL1_14_line_1f_37" break="no" rend="double stroke"/>le</w> anche prima: in questo caso, finita quella per <placeName ref="#Paris">Parigi</placeName> imprenderò 
+                                <lb xml:id="LL1_14_lb_1f_38" n="38" facs="#LL1_14_line_1f_38"/>a scrivere subito per <placeName ref="#NA">Napoli</placeName>.
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="closer" xml:id="closer">
+                        <gap reason="omitted-in-original" extent="unknown"/>
+                    </div>
+                </div>
+
+                <div type="retro" xml:id="retroPager">
+                    <pb n="2" xml:id="LL1_14_fol_1retro" facs="#LL1_14_folio_1r"/>
+                        <div xml:id="retroPage">
+                            <ab type="paratext" subtype="addition" hand="#h1" xml:id="LL1_14_2hand" facs="#LL1_14_2handr">		<!-- seconda mano del bibliotecario -->
+                                    <fw type="catalogNum" place="top-left"><idno type="oldCat">18</idno></fw>
+                            </ab>    
+                            <ab type="paratext" subtype="addition" n="4" hand="#h2" xml:id="LL1_14_3hand">		<!-- terza mano  -->
+                                <add xml:id="hand3add" facs="#LL1_14_3handr" hand="#h1" ><gap reason="illegibile" extent="2"/></add>
+                            </ab> 
+                            <ab xml:id="LL1_14_rdest" n="5"	facs="#LL1_14_dest">
+                                <lb/><gap reason="illegibile" extent="3"/>
+                                <lb/><persName ref="#GGa">Galeota</persName>               
+                            </ab>          
+                        </div>
+                </div>
+            </div>
+        </body>
+        <back>
+            <!--note-->
+            <div type="notes" xml:id="notes">
+                <div type="ann_notes" xml:id="ann_notes">
+                    <note xml:id="LL1_14_note1" resp="#VS" n="1">
+                        <p>
+                            <persName ref="#FFlo" role="composer">Francesco Florimo</persName> autore, compositore e amico personale di <persName ref="#VB" role="composer">Vincenzo Bellini</persName>.
+                        </p>
+                    </note>
+                    <note xml:id="LL1_14_note2" resp="#VS" n="2">
+                        <p>
+                            <persName ref="#MM" role="mezzosoprano">Maria </persName> era una mezzosoprano che fu scritturata nel 1834 al <orgName ref="#Scala">Teatro alla Scala</orgName> di <placeName ref="#MI">Milano</placeName>. 
+                        </p>
+                    </note>
+                    <note xml:id="LL1_14_note3" resp="#GS" n="3">
+                        <p>
+                            Da intendersi come "fondamento". 
+                        </p>
+                    </note>  
+                    <note xml:id="LL1_14_note4" resp="#GS" n="4">
+                        <p>
+                            Da questo punto <persName ref="VB" role="composer">Vincenzo Bellini</persName> prosuegue la minuta sceivendo strasversalmente nel margine sinistro della facciata.
+                        </p>
+                    </note>       
+                    <note xml:id="LL1_14_note5" resp="#GS" n="5">
+                        <p>
+                            <persName ref="#ETT" role="editor">Eugène-Théodore Troupenas </persName> proprietario dell'omonima casa editrice, che aveva fondato a <placeName ref="#Paris">Parigi</placeName> nel <date when="1825">1825</date>. 
+                        </p>
+                    </note>
+                    <note xml:id="LL1_14_note6" resp="#GS" n="6">
+                        <p>
+                            Questa sezione finale della lettera è scritta nel margine superiore del foglio, separato con una linea orizzontale dal testo sottostante.
+                        </p>
+                    </note>                      
+                    <note xml:id="LL_14_note7" resp="#VS" n="7">
+                        <p>
+                            Mancano informazioni al riguardo della <orgName>Nobile Direzione</orgName> probabilmente <persName ref="#VB" role="composer">Bellini</persName> si riferiva alla Direzione della <orgName type="opera-org" ref="#Soc-teatri_NA">Nobile società.</orgName>
+                        </p>
+                    </note>
+                </div>
+            </div>
+                <!--liste-->
+            <div type="liste" xml:id="liste">
+                <listOrg>
+                    <org xml:id="San_Carlo">
+                        <orgName>Teatro San Carlo</orgName>
+                        <desc>Il Teatro di San Carlo è un teatro lirico di Napoli</desc>
+                    </org>
+                    <org xml:id="Soc_teatri_NA">
+                        <orgName>Società dei Teatri di Napoli</orgName>
+                        <desc>(informazioni non reperibili)</desc>
+                    </org>
+                    <org xml:id="Scala">
+                        <orgName>Teatro alla Scala</orgName>
+                        <desc>Teatro d'opera principale di Milano</desc>
+                    </org>                       
+                </listOrg>
+
+                <listPerson>
+                    <person xml:id="VB" role="composer">
+                        <persName>Vincenzo Bellini</persName>
+                    </person>
+                    <person xml:id="FFlo" role="composer">
+                        <persName>Francesco Florimo</persName>
+                        </person>
+                    <person xml:id="GGa">
+                        <persName>Giovanni Galeota</persName>
+                    </person>
+                    <person xml:id="MM" role="mezzosoprano">
+                        <persName>Maria Malibran</persName>
+                    </person>
+                    <person xml:id="CP" role="librettist">
+                        <persName>Carlo Pepoli</persName>
+                    </person>
+                    <person xml:id="GRi" role="editor">
+                        <persName>Giovanni Ricordi</persName>
+                    </person>
+                    <person xml:id="ETT" role="editor">
+                        <persName>Eugène-Théodore Troupenas</persName>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="Paris">
+                        <placeName>Parigi</placeName>
+                    </place>
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                    </place>
+                    <place xml:id="NA">
+                        <placeName>Napoli</placeName>
+                    </place>
+                </listPlace>
+
+                <list type="work">
+                    <label>
+                        <rs type="work" xml:id="Sonnambula">Sonnambula</rs>
+                    </label>
+                    <item>
+                        <gloss target="#Sonnambula">La Sonnambula è un'opera seria in due atti composta nel <date when="1831">1831</date>;</gloss>
+                    </item>
+                    <label>
+                        <rs type="work" xml:id="Norma">Norma</rs>
+                    </label>
+                    <item>
+                        <gloss target="#Norma">La Norma è un'opera in due atti composta nel <date when="1831">1831</date>;</gloss>
+                    </item>
+                </list>
+                
+                <listBibl>
+                    <bibl xml:id="Seminara2017">
+                        <author>Graziella Seminara</author>
+                        <date when="2017">2017</date>
+                        <citedRange unit="page" from="331" to="332">331-332</citedRange>
+                    </bibl>
+                    <bibl xml:id="Amore1894">
+                        <author>Antonino Amore</author>
+                        <date when="1894">1894</date>
+                        <citedRange unit="page" from="338" to="339">338-339</citedRange>
+                    </bibl>
+                    <bibl xml:id="Neri2005">
+                        <author>Carmelo Neri</author>
+                        <date when="2005">2005</date>
+                        <citedRange unit="page" from="279" to="280">279-280</citedRange>
+                    </bibl>
+                </listBibl>
+
+                <list type="terminology">
+                    <label>
+                        <term subtype="music-term" xml:id="opera">opera</term>
+                    </label>
+                    <item>
+                        <gloss target="#opera">Composizione musicale accompagnata da uno spettacolo teatrale.</gloss>
+                    </item>
+                    <label>
+                        <term subtype="music-term" xml:id="compagnia">compagnia</term>
+                    </label>
+                    <item>
+                        <gloss target="#compagnia">Una compagnia teatrale è l'insieme del cast artistico e tecnico riunito allo scopo di allestire e produrre uno spettacolo teatrale.</gloss>
+                    </item>
+                    <label>
+                        <term subtype="music-term" xml:id="libretto">libretto</term>
+                    </label>
+                    <item>
+                        <gloss target="#libretto">Il libretto è il testo verbale utilizzato per la composizione di un lavoro musicale.</gloss>
+                    </item>
+                    <label>
+                        <term subtype="music-term" xml:id="spartito">spartito</term> 
+                    </label>
+                    <item>
+                        <gloss target="#spartito">Unità bibliografica di notazione musicale stampata o manoscritta.</gloss>
+                    </item>
+                </list>
+
+            </div>
+        </back>
+    </text>
+</TEI>

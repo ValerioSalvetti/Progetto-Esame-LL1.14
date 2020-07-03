@@ -1,0 +1,124 @@
+body{
+    background-color:#f5e2b8;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+button{
+    background-color:#bf9b2e;
+    border:solid;
+    cursor: pointer;
+    text-align: center;
+}
+
+.center{
+    text-align:center;
+}
+
+#teiHeader{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#titolo, #autore{
+    font-family: URW Chancery L, cursive;
+}
+
+.line{
+    margin-right:1em;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.blue{
+    color:blue;
+}
+
+.eccentric{
+    font-family: URW Chancery L, cursive;
+}
+
+.ink{
+    font-family:Marker Felt, fantasy;
+}
+
+.other{
+    font-family:Jazz LET, fantasy;
+}
+
+#letterBodyTot{
+    font-size:0.8em;  
+}
+
+#part_1f, #part_2f, #part_3f, #retroPage{
+    float:left;
+    width:18%;
+    margin-left:1em;
+    max-height: 430px;
+    overflow: scroll;
+    background-color:#bbb4a2;
+    color:#40382b;
+}
+
+#opener{
+    float:right;
+    width:57%;
+    margin-bottom:1em;
+}
+
+#closer{
+    float:right;
+    width:57%;
+    margin-top:1em;
+}
+
+img{
+    max-width: 100%;
+
+}
+
+#img-fronte, #img-retro{
+    width:40%;
+    float:left;  
+}
+
+
+
+#img-retro{
+    margin-top:1em;
+}
+
+#appendici {
+ float:left;
+ font-size:0.8em;
+}
+
+#terminology{
+    margin-bottom:1em;
+}
+
+#pers, #work, #place{
+    margin-top:1em;
+    width:33%;
+    float:left;
+}
+
+#persInt, #workInt, #placeInt{
+    padding:0.5em;
+    margin-top:1em;
+
+}
+#bibl{
+    clear:left;
+    margin-top:4em;    
+}
+
