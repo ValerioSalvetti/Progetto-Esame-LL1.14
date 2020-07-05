@@ -191,12 +191,14 @@
         <xsl:if test="@n=1">
                 <div id="img-fronte">
                     <button id="originale">Originale</button><button id="sezioni">Sezioni</button>
-                    <img id="fronteImgPic" src="LL1.14_0001.jpg" alt="Fronte lettera"/>
+                    <img id="fronteImgPic" src="LL1.14_0001.jpg" alt="Fronte lettera"/>-->
+                <!--   <img src="{//tei:graphic/@url}" /> -->
                 </div>
         </xsl:if>
         <xsl:if test="@n=2">
             <div id="img-retro">
-                        <img id="retroImgPic" src="LL1.14_0002.jpg" alt="Fronte lettera" usemap="usemap2"/>
+                       <img id="retroImgPic" src="LL1.14_0002.jpg" alt="Fronte lettera"/>
+                <!-- <img src="{//tei:graphic[@url='LL1.14_0002.jpg']}" />-->
             </div>
         </xsl:if>
 
